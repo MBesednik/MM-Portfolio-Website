@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ICON -->
+ <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRsBNhoKF3uNjIYCT6AjGQ-woBP58B-boTihruNn8FESoNRTfCmFZvFkpyJK1K2PBkSsY&usqp=CAU"
+      type="image/png"
+    />
+  
+     <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  <!-- CSS -->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+
+    <title>MM | Fitness</title>
+<body>
+ <header id="home">
+           <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <span class="logo">MM Fitness</span>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#about" class="scroll-link">O meni</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">Zdravlje</a>
+              </li>
+              <li>
+                <a href="#ebook" class="scroll-link">ebook</a>
+              </li>
+              <li>
+                <a href="#clients" class="scroll-link">Klijenti</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Ja sam Matej</h1>
+          <p>
+            " The meaning of life is not simply to exist, to survive, but to move ahead, to go up, to achieve, to conquer " ~ A. S.
+          </p>
+          <a href="#contact" class="scroll-link btn btn-white"
+            >Kontaktiraj me</a
+          >
+          <div class="header-icons">
+            <a href="https://www.facebook.com/matej.volinekoga"
+              ><i class="fab fa-facebook-square"></i>
+            </a>
+
+            <a href="https://www.instagram.com/matej_229_fitness/"
+              ><i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIDEBAR COMPONENT -->
+      <div class="social">
+        <a href="https://www.facebook.com/matej.volinekoga"
+          >Facebook <i class="fab fa-facebook-square"></i>
+        </a>
+
+        <a href="https://www.instagram.com/matej_229_fitness/"
+          >Instagram <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+       <!-- title -->
+        <div class="title">
+          <h2>O meni</h2>
+          <div class="underline"></div>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./assets/images/matej-legs.jpeg" alt="Nožna ekstenzija" />
+        </article>
+        <article class="aboutMe">
+          <!-- btn container -->
+
+          <div class="about-content">
+            <!-- single item -->
+            <div>
+              <h4>Nešto više o meni</h4>
+              <p>
+                Zovem se Matej, dolazim iz Zagreba, imam 23 godine i bavim se
+                fitnessom. Igrao sam i trenirao dodgeball za Hrvatski Dodgeball
+                Savez te sam nastupao na mnogobrojnim natjecanjima u svijetu.
+                Cilj mi je pomoći i inspirirati što veći broj ljudi te im pomoći
+                u postizanju njihovih željenih rezultata.
+              </p>
+            </div>
+            <!-- <div class="btnContainerAbout">
+              <button class="btnAbout">e-Book</button>
+              <a href="#contactMe">
+                <button class="btnAbout">Kontakt</button></a
+              >
+            </div> -->
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+        </article>
+      </div>
+    </section>
+
+     <!-- services -->
+    <section id="services" class="section">
+    <!-- title -->
+        <div class="title">
+          <h2>Zdravlje</h2>
+          <div class="underline"></div>
+        </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./assets/images/health.jpg" alt="Zdravlje" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container-tabs">
+            <button class="tab-btn active" data-id="prehrana">prehrana</button>
+            <button class="tab-btn" data-id="trening">trening</button>
+            <button class="tab-btn" data-id="san">san</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="prehrana">
+              <h4>Prehrana</h4>
+              <p>
+                Pravilnom prehranom se održava dobro zdravlje, zadovoljavaju se
+                energetske potrebe, omogućuje se obavljanje fizičkog rada.
+              </p>
+              <h4>Pravilnom prehranom ćete:</h4>
+              <ul>
+                <li>~ Zadovoljiti mikro i makro nutrijente</li>
+                <li>~ Postići fizički rezultati</li>
+                <li>~ Biti zdraviji</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="trening">
+              <h4>Važnost treninga</h4>
+              <p>
+                U današnjem društvu, koje se bazira na sjedećem životnom stilu,
+                jako je bitno ostati aktivan što znači održati svoje tijelo
+                funkcionalno i očuvati zdravlje. Glavna prednost tijelovježbe je
+                smanjenje rizika od mnogih bolesti. Vježbanje ne mora biti nužno
+                dosadno i zastrašujuće te može biti nešto u čemu ćete uživati.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="san">
+              <h4>Važnost sna</h4>
+              <p>
+                Kvalitetan san je nevjerojatno važan za vaše zdravlje. Dobro se
+                naspavati jednako je važno kao i zdravo se hraniti i vježbati.
+              </p>
+              <h4>Nedostatak sna utječe na:</h4>
+              <ul>
+                <li>~ koncentraciju</li>
+                <li>~ produktivnost</li>
+                <li>~ radni učinak</li>
+                <li>~ imunološki sustav</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="ebook" class="section">
+       <!-- title -->
+        <div class="title">
+          <h2>Plan treninga</h2>
+          <div class="underline"></div>
+      </div>
+    </section>
+
+<!-- Clients -->
+    <section id="clients" class="section">
+       <!-- title -->
+        <div class="title">
+          <h2>Klijenti</h2>
+          <div class="underline"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+       <!-- title -->
+        <div class="title">
+          <h2>Kontaktiraj me</h2>
+          <div class="underline"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Mateo Besednik
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="./script.js"></script>
+</body>
+</html>
