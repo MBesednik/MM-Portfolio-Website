@@ -28,10 +28,10 @@ ul {
 a {
   text-decoration: none;
 }
-img:not(.logo) {
+img:not(.logo):not(.slider-img) {
   width: 100%;
 }
-img {
+img:not(.slider-img) {
   display: block;
 }
 
