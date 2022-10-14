@@ -34,7 +34,7 @@
   --clr-black: #222;
   --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: 'Open Sans', sans-serif;
-  --transition: all 0.3s linear;
+  --transition: all 0.25s linear;
   --spacing: 0.2rem;
   --mini-spacing: 0.11rem;
   --radius: 0.5rem;
@@ -198,6 +198,15 @@ ul {
   100% {
     transform: scale(1); } }
 
+.btn-ebook {
+  border: 1px solid var(--clr-grey-5);
+  transition: var(--transition); }
+
+.btn-ebook:hover {
+  background-color: var(--clr-grey-10);
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.2rem); }
+
 /*
 =============== 
 Slider Styles
@@ -211,9 +220,6 @@ Slider Styles
   padding: 1rem 0;
   /* set relative for buttons */
   position: relative; }
-
-.reviews {
-  margin-bottom: 4rem; }
 
 .slider-img {
   width: 150px;
@@ -239,7 +245,7 @@ Slider Styles
 /* set buttons */
 .btn-slider {
   position: absolute;
-  top: 230px;
+  top: 225px;
   font-size: 1.5rem;
   background: var(--clr-primary-3);
   color: var(--clr-white);
@@ -254,22 +260,25 @@ Slider Styles
 .prev-btn {
   left: -0.5rem; }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .next-btn {
-    right: -5rem; }
+    right: 2rem; }
   .prev-btn {
-    left: -5rem; }
+    left: 2rem; }
   .btn {
     font-size: 1.3rem;
     padding: 0.35rem 0.5rem; }
-  .quote-icon {
-    font-size: 4rem; } }
+  .text {
+    padding: 0 1.5rem; }
+  p.title {
+    margin: 1rem 0 1.5rem 0;
+    padding: 0; } }
 
 /* MORE CSS FOR JS */
 .slide-container {
   display: flex;
   position: relative;
-  height: 450px;
+  height: 350px;
   overflow: hidden; }
 
 .slide {

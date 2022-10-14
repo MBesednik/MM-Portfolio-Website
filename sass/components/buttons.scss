@@ -64,3 +64,16 @@
     transform: scale(1);
   }
 }
+
+// eBook button
+
+.btn-ebook {
+  border: 1px solid var(--clr-grey-5);
+  transition: var(--transition);
+}
+
+.btn-ebook:hover {
+  background-color: var(--clr-grey-10);
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.2rem);
+}

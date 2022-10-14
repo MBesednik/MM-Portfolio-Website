@@ -3,6 +3,7 @@
 Slider Styles
 ===============
 */
+
 .slider {
   width: 100vw;
   max-width: var(--fixed-width);
@@ -11,9 +12,6 @@ Slider Styles
   padding: 1rem 0;
   /* set relative for buttons */
   position: relative;
-}
-.reviews {
-  margin-bottom: 4rem;
 }
 
 .slider-img {
@@ -38,6 +36,7 @@ Slider Styles
 //   letter-spacing: 2px;
 //   text-transform: capitalize;
 // }
+
 .text {
   color: var(--clr-grey-5);
   line-height: 1.8;
@@ -54,7 +53,7 @@ Slider Styles
 /* set buttons */
 .btn-slider {
   position: absolute;
-  top: 230px;
+  top: 225px;
   font-size: 1.5rem;
   background: var(--clr-primary-3);
   color: var(--clr-white);
@@ -69,19 +68,23 @@ Slider Styles
 .prev-btn {
   left: -0.5rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .next-btn {
-    right: -5rem;
+    right: 2rem;
   }
   .prev-btn {
-    left: -5rem;
+    left: 2rem;
   }
   .btn {
     font-size: 1.3rem;
     padding: 0.35rem 0.5rem;
   }
-  .quote-icon {
-    font-size: 4rem;
+  .text {
+    padding: 0 1.5rem;
+  }
+  p.title {
+    margin: 1rem 0 1.5rem 0;
+    padding: 0;
   }
 }
 
@@ -89,7 +92,7 @@ Slider Styles
 .slide-container {
   display: flex;
   position: relative;
-  height: 450px;
+  height: 350px;
   overflow: hidden;
 }
 
@@ -102,6 +105,7 @@ Slider Styles
   transition: all 0.3s ease-in-out;
   opacity: 0;
 }
+
 .slide.slide-active {
   opacity: 1;
   transform: translateX(0);
